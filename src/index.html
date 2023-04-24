@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/styles.css">
+   <title>Registration</title>
+</head>
+
+<body>
+   <div class="parent">
+      <div class="contact-us">
+         <h1>contact us</h1>
+
+         <form action="#" id="form" name="form">
+            <div class="input-box">
+               <input type="text" name="name" id="name" data-reg="^[a-zA-Z]+$" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+               <input type="email" name="email" id="email"
+                  data-reg="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" placeholder="Enter your email">
+            </div>
+            <div class="input-box">
+               <input type="text" name="phone" id="phone"
+                  data-reg="^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$"
+                  placeholder="Enter your phone">
+            </div>
+            <div class="input-box">
+               <textarea name="" id="" rows=" 10" placeholder="Enter your messege"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+
+         </form>
+
+      </div>
+
+   </div>
+
+
+
+
+
+   <script src="js/all.js"></script>
+</body>
+
+</html>
